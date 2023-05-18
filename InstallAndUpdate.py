@@ -6,7 +6,7 @@ import requests
 file_urls = [
     "https://raw.githubusercontent.com/HttpAnimation/SteamFree/main/InstallAndUpdate.py",
     "https://raw.githubusercontent.com/HttpAnimation/SteamFree/main/script.py",
-    "https://github.com/HttpAnimation/SteamFree/blob/main/game.txt",
+    "https://raw.githubusercontent.com/HttpAnimation/SteamFree/main/game.txt",
     "https://raw.githubusercontent.com/HttpAnimation/SteamFree/main/uninstall.py"
 ]
 
