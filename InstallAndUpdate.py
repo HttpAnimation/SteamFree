@@ -1,7 +1,23 @@
-import os 
-os.system("pip install requests")
+import os
+import platform
+import subprocess
 import requests
 
+# Install requests library if not already installed
+def install_requests():
+    try:
+        import requests
+    except ImportError:
+        if platform.system() == "Windows":
+            subprocess.call(["pip", "install", "requests"])
+        elif platform.system() == "Darwin":
+            subprocess.call(["pip3", "install", "requests"])
+
+# Check if requests library is installed
+try:
+    import requests
+except ImportError:
+    install_requests()
 
 file_urls = [
     "https://raw.githubusercontent.com/HttpAnimation/SteamFree/main/InstallAndUpdate.py",
