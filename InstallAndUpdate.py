@@ -25,7 +25,7 @@ file_urls = [
     "https://raw.githubusercontent.com/HttpAnimation/SteamFree/main/script.py",
     "https://raw.githubusercontent.com/HttpAnimation/SteamFree/main/game.txt",
     "https://raw.githubusercontent.com/HttpAnimation/SteamFree/main/uninstall.py",
-        "https://raw.githubusercontent.com/HttpAnimation/SteamFree/main/gui.py"
+    "https://raw.githubusercontent.com/HttpAnimation/SteamFree/main/gui.py"   
 ]
 
 # Download each file
