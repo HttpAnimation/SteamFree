@@ -12,7 +12,8 @@ def install_requests():
             subprocess.call(["pip", "install", "requests"])
         elif platform.system() == "Darwin":
             subprocess.call(["pip3", "install", "requests"])
-
+            subprocess.call(["pip","install","ttkthemes"])
+            subprocess.call(["sudo", "apt-get", "install", "python3-tk"])
 # Check if requests library is installed
 try:
     import requests
@@ -23,7 +24,8 @@ file_urls = [
     "https://raw.githubusercontent.com/HttpAnimation/SteamFree/main/InstallAndUpdate.py",
     "https://raw.githubusercontent.com/HttpAnimation/SteamFree/main/script.py",
     "https://raw.githubusercontent.com/HttpAnimation/SteamFree/main/game.txt",
-    "https://raw.githubusercontent.com/HttpAnimation/SteamFree/main/uninstall.py"
+    "https://raw.githubusercontent.com/HttpAnimation/SteamFree/main/uninstall.py",
+        "https://raw.githubusercontent.com/HttpAnimation/SteamFree/main/gui.py"
 ]
 
 # Download each file

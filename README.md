@@ -6,3 +6,4 @@ Download InstallAndUpdate.py and run it then run script.py
 
 # Install: git clone https://github.com/HttpAnimation/SteamFree.git
 # run script.py and use --auto to make it do everything by it's self
+# run gui.py for a gui version of the script this is in beta right now
