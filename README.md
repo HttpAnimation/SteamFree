@@ -19,10 +19,10 @@ Usage
 
 shell
 
+#Python Gui
 python3 script.py --auto
 
     For a graphical user interface (GUI) version of the script (currently in beta), run gui.py.
 
 Please note that an option to automatically add games is not included for safety reasons.
 
-Feel free to make use of this improved .md file for your project.
