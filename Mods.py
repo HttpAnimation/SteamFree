@@ -1,9 +1,15 @@
 import webbrowser
 import time
 import sys
+import os
 
 exclude_file_path = "ExcludeMods.txt"
 game_file_path = "mods.txt"
+
+# Check if the exclude file exists, and create it if it doesn't
+if not os.path.isfile(exclude_file_path):
+    with open(exclude_file_path, "w") as exclude_file:
+        pass  # Empty pass statement to create an empty file
 
 # Read excluded URLs from the file
 with open(exclude_file_path, "r") as exclude_file:
@@ -38,4 +44,3 @@ for url in game_urls:
             exclude_file.write(url + '\n')
 
 print("Done.")
-
