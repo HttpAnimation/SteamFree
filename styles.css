@@ -1,31 +1,39 @@
 body {
-    background-color: #222;
+    background-color: #36393F;
     color: #fff;
     font-family: Arial, sans-serif;
     padding: 20px;
 }
 
+#buttonContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 button {
-    background-color: #222;
+    background-color: #7289DA;
     color: #fff;
     border: none;
     padding: 10px 20px;
+    margin-right: 10px;
     margin-bottom: 10px;
     cursor: pointer;
+    border-radius: 4px;
+    font-size: 14px;
 }
 
 button:hover {
-    background-color: #444;
+    background-color: #677BC4;
 }
 
 .dark-mode {
-    background-color: #000;
+    background-color: #2C2F33;
 }
 
 .dark-mode button {
-    background-color: #000;
+    background-color: #5865F2;
 }
 
 .dark-mode button:hover {
-    background-color: #222;
+    background-color: #4E5D94;
 }
