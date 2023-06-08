@@ -1,0 +1,31 @@
+body {
+    background-color: #222;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+button {
+    background-color: #222;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #444;
+}
+
+.dark-mode {
+    background-color: #000;
+}
+
+.dark-mode button {
+    background-color: #000;
+}
+
+.dark-mode button:hover {
+    background-color: #222;
+}
