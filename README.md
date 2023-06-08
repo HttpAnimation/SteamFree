@@ -25,7 +25,7 @@ python3 script.py --auto
     For a graphical user interface (GUI) version of the script (currently in beta), run gui.py.
 
 # HTML Version
-not made right now working on right on
+    https://httpanimation.github.io/SteamFree/
 
 Please note that an option to automatically add games is not included for safety reasons.
 
