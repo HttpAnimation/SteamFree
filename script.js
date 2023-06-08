@@ -10,8 +10,11 @@ fetch('https://raw.githubusercontent.com/HttpAnimation/SteamFree/main/game.txt')
 
         // Create buttons for each URL
         urls.forEach(url => {
+            // Extract the name from the URL and replace underscores with spaces
+            const name = url.substring(url.lastIndexOf('/') + 1).replace(/_/g, ' ');
+
             const button = document.createElement('button');
-            button.textContent = url;
+            button.textContent = name;
             button.addEventListener('click', () => {
                 window.open(url, '_blank');
             });
