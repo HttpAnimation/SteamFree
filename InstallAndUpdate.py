@@ -43,10 +43,3 @@ for url in file_urls:
         print(f"Downloaded file: {file_name}")
     else:
         print(f"Failed to download file: {file_name}. Error code: {response.status_code}")
-
-# Check if "Build.py" file was downloaded successfully
-if "Build.py" in os.listdir():
-    print("Build.py was downloaded.")
-    print("Now run Build.py")
-else:
-    print("Build.py was not downloaded.")
