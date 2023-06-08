@@ -13,7 +13,9 @@ def create_file(file_name):
 exclude_games_file = "ExcludeGames.txt"
 exclude_mods_file = "ExcludeMods.txt"
 exclude_dlcs_file = "ExcludeDLCS.txt"
+exclude_demos_file = "ExcludeDemos.txt"
 
+create_file(exclude_demos_file)
 create_file(exclude_dlcs_file)
 create_file(exclude_games_file)
 create_file(exclude_mods_file)
