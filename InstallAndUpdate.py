@@ -46,6 +46,6 @@ for url in file_urls:
 # Check if "Build.py" file was downloaded successfully
 if "Build.py" in os.listdir():
     print("Running Build.py...")
-    subprocess.call(["python", "Build.py"])
+    subprocess.call(["python3", "Build.py"])
 else:
     print("Build.py was not downloaded.")
