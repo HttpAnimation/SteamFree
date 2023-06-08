@@ -22,9 +22,10 @@ except ImportError:
 
 file_urls = [
     "https://raw.githubusercontent.com/HttpAnimation/SteamFree/main/InstallAndUpdate.py",
-    "https://raw.githubusercontent.com/HttpAnimation/SteamFree/main/script.py",
+    "https://raw.githubusercontent.com/HttpAnimation/SteamFree/main/Games.py",
     "https://raw.githubusercontent.com/HttpAnimation/SteamFree/main/game.txt",
     "https://raw.githubusercontent.com/HttpAnimation/SteamFree/main/uninstall.py",
+    "https://raw.githubusercontent.com/HttpAnimation/SteamFree/main/Mods.py",
     "https://raw.githubusercontent.com/HttpAnimation/SteamFree/main/gui.py"   
 ]
 

@@ -15,7 +15,7 @@ git clone https://github.com/HttpAnimation/SteamFree.git
 
 Usage
 
-    To run the script in automatic mode, use the --auto flag with the script.py file.
+    To run the script in automatic mode, use the --auto flag with the Games.py file.
 
 shell
 
@@ -26,6 +26,10 @@ python3 script.py --auto
 
 # HTML Version
     https://httpanimation.github.io/SteamFree/
+
+# Mods Version
+    Script: Mods.py
+    Site: Mods.html --Not done yet
 
 Please note that an option to automatically add games is not included for safety reasons.
 

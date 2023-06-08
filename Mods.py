@@ -2,8 +2,8 @@ import webbrowser
 import time
 import sys
 
-exclude_file_path = "Exclude.txt"
-game_file_path = "game.txt"
+exclude_file_path = "ExcludeMods.txt"
+game_file_path = "mods.txt"
 
 # Read excluded URLs from the file
 with open(exclude_file_path, "r") as exclude_file:
