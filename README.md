@@ -17,19 +17,16 @@ Usage
 
     To run the script in automatic mode, use the --auto flag with the Games.py file.
 
-shell
-
-# Python Gui Version
-python3 script.py --auto
-
-    For a graphical user interface (GUI) version of the script (currently in beta), run gui.py.
-
 # HTML Version
     https://httpanimation.github.io/SteamFree/
 
 # Mods Version
     Script: Mods.py
-    Site: Mods.html --Not done yet
+    Site: https://httpanimation.github.io/SteamFree/Mods.html
+
+# DLCS Version
+    Script: DLCS.py
+    Site: https://httpanimation.github.io/SteamFree/DLCS.html
 
 Please note that an option to automatically add games is not included for safety reasons.
 
