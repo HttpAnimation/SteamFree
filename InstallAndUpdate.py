@@ -12,8 +12,9 @@ def install_requests():
             subprocess.call(["pip", "install", "requests"])
         elif platform.system() == "Darwin":
             subprocess.call(["pip3", "install", "requests"])
-            subprocess.call(["pip","install","ttkthemes"])
+            subprocess.call(["pip", "install", "ttkthemes"])
             subprocess.call(["sudo", "apt-get", "install", "python3-tk"])
+
 # Check if requests library is installed
 try:
     import requests
@@ -26,6 +27,7 @@ file_urls = [
     "https://raw.githubusercontent.com/HttpAnimation/SteamFree/main/game.txt",
     "https://raw.githubusercontent.com/HttpAnimation/SteamFree/main/uninstall.py",
     "https://raw.githubusercontent.com/HttpAnimation/SteamFree/main/Mods.py",
+    "https://raw.githubusercontent.com/HttpAnimation/SteamFree/main/Build.py",
     "https://raw.githubusercontent.com/HttpAnimation/SteamFree/main/gui.py"   
 ]
 
@@ -41,3 +43,9 @@ for url in file_urls:
     else:
         print(f"Failed to download file: {file_name}. Error code: {response.status_code}")
 
+# Check if "Build.py" file was downloaded successfully
+if "Build.py" in os.listdir():
+    print("Running Build.py...")
+    subprocess.call(["python", "Build.py"])
+else:
+    print("Build.py was not downloaded.")
