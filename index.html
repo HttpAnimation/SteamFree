@@ -2,10 +2,53 @@
 <html>
 <head>
     <title>SteamFree</title>
-    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background-color: #181818;
+            color: #ffffff;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        button {
+            background-color: #1db954;
+            border: none;
+            color: #ffffff;
+            padding: 10px 20px;
+            font-size: 16px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #1ed760;
+        }
+
+        .dark-mode {
+            background-color: #000000;
+            color: #ffffff;
+        }
+
+        .dark-mode button {
+            background-color: #1ed760;
+        }
+
+        .dark-mode button:hover {
+            background-color: #1db954;
+        }
+    </style>
 </head>
-<body>
-    <div id="buttonContainer"></div>
-    <script src="script.js"></script>
+<body class="dark-mode">
+    <h1>Welcome to SteamFree</h1>
+    <button onclick="location.href='Games.html'">Games</button>
+    <button onclick="location.href='Mods.html'">Mods</button>
+    <button onclick="location.href='DLCS.html'">DLCS</button>
 </body>
 </html>
