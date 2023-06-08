@@ -19,12 +19,12 @@ Usage
 
 shell
 
-# Python Gui
+# Python Gui Version
 python3 script.py --auto
 
     For a graphical user interface (GUI) version of the script (currently in beta), run gui.py.
 
-# HTMLVersion
+# HTML Version
 not made right now working on right on
 
 Please note that an option to automatically add games is not included for safety reasons.
