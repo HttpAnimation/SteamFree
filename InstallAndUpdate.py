@@ -29,6 +29,7 @@ file_urls = [
     "https://raw.githubusercontent.com/HttpAnimation/SteamFree/main/uninstall.py",
     "https://raw.githubusercontent.com/HttpAnimation/SteamFree/main/Mods.py",
     "https://raw.githubusercontent.com/HttpAnimation/SteamFree/main/Build.py",
+    "https://raw.githubusercontent.com/HttpAnimation/SteamFree/main/DLCS.py",
     "https://raw.githubusercontent.com/HttpAnimation/SteamFree/main/gui.py"   
 ]
 
