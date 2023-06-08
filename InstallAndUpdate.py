@@ -2,6 +2,9 @@ import os
 import platform
 import subprocess
 import requests
+import sys
+subprocess.call([sys.executable, "Build.py"])
+
 
 # Install requests library if not already installed
 def install_requests():
@@ -46,6 +49,6 @@ for url in file_urls:
 # Check if "Build.py" file was downloaded successfully
 if "Build.py" in os.listdir():
     print("Running Build.py...")
-    subprocess.call(["python3", "Build.py"])
+    subprocess.call(["python", "Build.py"])
 else:
     print("Build.py was not downloaded.")
