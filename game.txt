@@ -698,3 +698,4 @@ https://store.steampowered.com/app/1463730/Arid/
 https://store.steampowered.com/app/1070910/Are_you_ready_for_Valve_Index/
 https://store.steampowered.com/app/394120/Atom_Universe/
 https://store.steampowered.com/app/666220/CS2D/
+https://store.steampowered.com/app/2381620/Steam_Engine_Simulator/
