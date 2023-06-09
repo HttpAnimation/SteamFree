@@ -89,3 +89,6 @@ https://store.steampowered.com/app/1761870/FLASHOUT_3/
 https://store.steampowered.com/app/1233610/Tactical_Warfare_Simulator/
 https://store.steampowered.com/app/325180/AppGameKit_Classic_Easy_Game_Development/
 https://store.steampowered.com/app/1257030/Heartworm/
+https://store.steampowered.com/app/368340/CrossCode/
+https://store.steampowered.com/app/234820/Driver_Fusion__The_Best_Driver_Update_and_Backup_Software/
+https://store.steampowered.com/app/621300/Wing_Pro_6/
