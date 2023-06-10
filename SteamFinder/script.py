@@ -55,7 +55,7 @@ def create_main_window():
     window = tk.Tk()
     window.title("Steam App URL Generator")
     window.geometry("400x400")
-    window.configure(bg="white")
+    window.configure(bg="black")
 
     # Style and dark mode
     global style
