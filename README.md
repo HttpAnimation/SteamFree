@@ -28,7 +28,12 @@ Usage
     Script: DLCS.py
     Site: https://httpanimation.github.io/SteamFree/DLCS.html
 
-Please note that an option to automatically add games is not included for safety reasons.
+# Steam Finder
+    Script: SteamFinder/script.py
+This trys it's best to file a reandom steam app 
+
+# ====================
+    Please note that an option to automatically add games is not included for safety reasons.
 
 
 
