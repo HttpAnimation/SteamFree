@@ -1,5 +1,5 @@
 // Fetch the text file containing the URLs
-fetch('https://raw.githubusercontent.com/HttpAnimation/SteamFree/main/mods.txt')
+fetch('https://raw.githubusercontent.com/HttpAnimation/SteamFree/main/mods.api')
     .then(response => response.text())
     .then(data => {
         // Split the text into an array of URLs
