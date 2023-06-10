@@ -3,8 +3,8 @@ import time
 import sys
 import os
 
-exclude_file_path = "ExcludeMods.txt"
-game_file_path = "mods.txt"
+exclude_file_path = "ExcludeMods.api"
+game_file_path = "mods.api"
 
 # Check if the exclude file exists, and create it if it doesn't
 if not os.path.isfile(exclude_file_path):

@@ -3,8 +3,8 @@ import time
 import sys
 import os
 
-exclude_file_path = "ExcludeDLCS.txt"
-game_file_path = "dlcs.txt"
+exclude_file_path = "ExcludeDLCS.api"
+game_file_path = "dlcs.api"
 
 # Check if the exclude file exists, and create it if it doesn't
 if not os.path.isfile(exclude_file_path):

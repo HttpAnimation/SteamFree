@@ -10,10 +10,10 @@ def create_file(file_name):
         except IOError:
             print(f"An error occurred while creating the file '{file_name}'.")
 
-exclude_games_file = "ExcludeGames.txt"
-exclude_mods_file = "ExcludeMods.txt"
-exclude_dlcs_file = "ExcludeDLCS.txt"
-exclude_demos_file = "ExcludeDemos.txt"
+exclude_games_file = "ExcludeGames.api"
+exclude_mods_file = "ExcludeMods.api"
+exclude_dlcs_file = "ExcludeDLCS.api"
+exclude_demos_file = "ExcludeDemos.api"
 
 create_file(exclude_demos_file)
 create_file(exclude_dlcs_file)
