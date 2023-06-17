@@ -7,7 +7,7 @@ Installation
     Run the InstallAndUpdate.py script.
     Execute the script.py file.
 
-Support Website
+# Support Website
     Linux = Yes
     MacOS = Yes
     Windows = Yes
@@ -16,7 +16,7 @@ Support Website
     Other = Not Tested
 
 
-Support Python3
+# Support Python3
     Linux = Yes
     MacOS = Yes
     Windows = Not Tested
