@@ -1,5 +1,5 @@
 // Fetch the text file containing the URLs
-fetch('https://raw.githubusercontent.com/HttpAnimation/SteamFree/main/paid.api')
+fetch('https://raw.githubusercontent.com/HttpAnimation/SteamFree/main/Videos.api')
     .then(response => response.text())
     .then(data => {
         // Split the text into an array of URLs
