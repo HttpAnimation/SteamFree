@@ -14,13 +14,7 @@ exclude_games_file = "ExcludeGames.api"
 exclude_mods_file = "ExcludeMods.api"
 exclude_dlcs_file = "ExcludeDLCS.api"
 exclude_demos_file = "ExcludeDemos.api"
-exclude_csson_file = "ExcludeCSoon.api"
-exclude_software_file = "ExcludeSoftware.api"
-exclude_videos_file = "ExcludeVideos.api"
 
-create_file(exclude_videos_file)
-create_file(exclude_software_file)
-create_file(exclude_csson_file)
 create_file(exclude_demos_file)
 create_file(exclude_dlcs_file)
 create_file(exclude_games_file)
