@@ -2,9 +2,10 @@ import webbrowser
 import time
 import sys
 import os
+import requests
 
-exclude_file_path = "ExcludeDLCS.api"
-game_file_path = "dlcs.api"
+exclude_file_path = "ExcludeSoftware.api"
+game_file_path = "https://raw.githubusercontent.com/HttpAnimation/SteamFree/main/Software.api"
 
 # Check if the exclude file exists, and create it if it doesn't
 if not os.path.isfile(exclude_file_path):
@@ -16,8 +17,8 @@ with open(exclude_file_path, "r") as exclude_file:
     excluded_urls = exclude_file.read().splitlines()
 
 # Read game URLs from the file
-with open(game_file_path, "r") as game_file:
-    game_urls = game_file.read().splitlines()
+response = requests.get(game_file_path)
+game_urls = response.text.splitlines()
 
 # Determine if running in auto mode
 auto_mode = "--auto" in sys.argv

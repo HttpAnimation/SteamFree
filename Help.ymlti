@@ -1,0 +1,14 @@
+exclude_file_path = "ExcludeMods.api"
+game_file_path = "mods.api"
+
+exclude_file_path = "ExcludeGames.api"
+game_file_path = "game.api"
+
+exclude_file_path = "ExcludeDLCS.api"
+game_file_path = "dlcs.api"
+
+exclude_file_path = "ExcludeDemos.api"
+game_file_path = "demos.api"
+
+exclude_file_path = "ExcludeCSoon.api"
+game_file_path = "csoon.api"
