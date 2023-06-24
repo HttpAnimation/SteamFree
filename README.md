@@ -1,8 +1,5 @@
 SteamFree
 
-# GH-Pages code
-    https://github.com/HttpAnimation/SteamFree.git
-
 Automatically adds every free game on Steam to your library.
 Installation
 
